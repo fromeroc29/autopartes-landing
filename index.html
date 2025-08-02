@@ -1,89 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Autopartes 3H</title>
   <!--<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">-->
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="bg-gray-100 font-sans">
+<body>
   <!-- Encabezado -->
-  <header class="bg-black text-white p-4">
-    <div class="container mx-auto flex justify-between items-center">
-      <h1 class="text-2xl font-bold">Autopartes 3 hermanos</h1>
+  <header>
+    <div class="container">
+      <h1>Autopartes 3 hermanos</h1>
       <nav>
-        <ul class="flex space-x-4">
-          <li><a href="#categorias" class="hover:underline">Categorías</a></li>
-          <li><a href="#productos" class="hover:underline">Productos</a></li>
-          <li><a href="#contacto" class="hover:underline">Contacto</a></li>
+        <ul>
+          <li><a href="#categorias">Categorías</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <!-- Banner principal -->
-  <section class="bg-cover bg-center h-64 text-white flex items-center justify-center" style="background-image: url('https://images.unsplash.com/photo-1571607388069-f06d71efb4c1?auto=format&fit=crop&w=1400&q=80');">
-    <div class="bg-black bg-opacity-50 p-6 rounded">
-      <h2 class="text-3xl font-bold">Autopartes nuevas y usadas</h2>
+  <section class="bg-cover" style="background-image: url('https://images.unsplash.com/photo-1571607388069-f06d71efb4c1?auto=format&fit=crop&w=1400&q=80');">
+    <div>
+      <h2>Autopartes nuevas y usadas</h2>
       <p>Encuentra la pieza que tu vehículo necesita</p>
     </div>
   </section>
 
   <!-- Categorías -->
-  <section id="categorias" class="py-10">
-    <div class="container mx-auto">
-      <h3 class="text-2xl font-bold mb-6 text-center">Categorías</h3>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div class="bg-white p-4 shadow rounded text-center">Motores</div>
-        <div class="bg-white p-4 shadow rounded text-center">Transmisiones</div>
-        <div class="bg-white p-4 shadow rounded text-center">Suspensión</div>
-        <div class="bg-white p-4 shadow rounded text-center">Accesorios</div>
-      </div>
+<section id="categorias">
+  <div class="container">
+    <h3>Categorías</h3>
+    <div class="grid-categorias">
+      <div>Motores</div>
+      <div>Transmisiones</div>
+      <div>Suspensión</div>
+      <div>Frenos</div>
+      <div>Sistema eléctrico</div>
+      <div>Accesorios</div>
+      <div>Carrocería</div>
+      <div>Rines y llantas</div>
+      <div>Escape y silenciadores</div>
+      <div>Partes interiores</div>
+      <div>Sistemas de enfriamiento</div>
+      <div>Filtros y lubricantes</div>
+      <div>Iluminación</div>
+      <div>Baterías</div>
+      <div>Sistemas de combustible</div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Productos destacados -->
-  <section id="productos" class="py-10 bg-gray-200">
-    <div class="container mx-auto">
-      <h3 class="text-2xl font-bold mb-6 text-center">Productos destacados</h3>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        <div class="bg-white p-4 shadow rounded">
-          <img src="https://via.placeholder.com/300x200" alt="Producto" class="mb-2">
-          <h4 class="font-semibold">Motor Nissan 2.5L</h4>
-          <p class="text-green-700 font-bold">$12,000</p>
+  <section id="productos" style="background-color: #e5e7eb;"> <!-- gris claro -->
+    <div class="container">
+      <h3>Productos destacados</h3>
+      <div class="grid">
+        <div>
+          <img src="https://via.placeholder.com/300x200" alt="Motor Nissan 2.5L" />
+          <h4>Motor Nissan 2.5L</h4>
+          <p>$12,000</p>
         </div>
-        <div class="bg-white p-4 shadow rounded">
-          <img src="https://via.placeholder.com/300x200" alt="Producto" class="mb-2">
-          <h4 class="font-semibold">Transmisión automática Jetta</h4>
-          <p class="text-green-700 font-bold">$9,500</p>
+        <div>
+          <img src="https://via.placeholder.com/300x200" alt="Transmisión automática Jetta" />
+          <h4>Transmisión automática Jetta</h4>
+          <p>$9,500</p>
         </div>
-        <div class="bg-white p-4 shadow rounded">
-          <img src="https://via.placeholder.com/300x200" alt="Producto" class="mb-2">
-          <h4 class="font-semibold">Suspensión delantera Ford</h4>
-          <p class="text-green-700 font-bold">$3,800</p>
+        <div>
+          <img src="https://via.placeholder.com/300x200" alt="Suspensión delantera Ford" />
+          <h4>Suspensión delantera Ford</h4>
+          <p>$3,800</p>
         </div>
-        <div class="bg-white p-4 shadow rounded">
-          <img src="https://via.placeholder.com/300x200" alt="Producto" class="mb-2">
-          <h4 class="font-semibold">Faros LED universales</h4>
-          <p class="text-green-700 font-bold">$1,200</p>
+        <div>
+          <img src="https://via.placeholder.com/300x200" alt="Faros LED universales" />
+          <h4>Faros LED universales</h4>
+          <p>$1,200</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Contacto -->
-  <section id="contacto" class="py-10">
-    <div class="container mx-auto text-center">
-      <h3 class="text-2xl font-bold mb-4">Contáctanos</h3>
-      <p class="mb-2">WhatsApp: <a href="https://wa.me/5215573468047" class="text-blue-500 underline">Enviar mensaje</a></p>
-      <p class="mb-2">Correo: autopartes3h@email.com</p>
-      <p>Ubicación:<a>Melchor Ocampo 39-F Col, Mariano Escobedo, 54946 Buenavista, Méx.</a> </p>
-    </div>
-  </section>
+<section id="contacto">
+  <div class="container">
+    <h3>Contáctanos</h3>
+    <p>WhatsApp: <a href="https://wa.me/5215573468047">Enviar mensaje</a></p>
+    <p>Correo: autopartes3h@email.com</p>
+    <p>Ubicación: Melchor Ocampo 39-F Col, Mariano Escobedo, 54946 Buenavista, Méx.</p>
+  </div>
+</section>
 
   <!-- Pie de página -->
-  <footer class="bg-black text-white text-center p-4">
+  <footer>
     <p>&copy; 2025 Autopartes 3H. Todos los derechos reservados.</p>
   </footer>
 </body>
